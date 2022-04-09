@@ -6,4 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".BirthdayGreetingActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cake"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/birthdayGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/happy_birthday"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
 </androidx.constraintlayout.widget.ConstraintLayout>

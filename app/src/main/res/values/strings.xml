@@ -3,4 +3,5 @@
     <string name="enter_the_name">Enter The Name</string>
     <string name="create_birthday_card">Create Birthday Card</string>
     <string name="name">Name</string>
+    <string name="happy_birthday">Happy Birthday</string>
 </resources>
